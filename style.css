@@ -42,3 +42,11 @@ a:hover{
     display: grid;
     row-gap: 5px;
 }
+
+.contenedor{
+    margin: 1% 10%;
+    padding: 20px;
+    background-color: rgb(91, 192, 153);
+    color: white;
+    border-radius: 15px;
+}
