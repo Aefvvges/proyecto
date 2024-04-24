@@ -50,3 +50,18 @@ a:hover{
     color: white;
     border-radius: 15px;
 }
+
+.info{
+    display: flex;
+    justify-content: right;
+}
+
+.box{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+.texto{
+    align-items: center;
+}
