@@ -65,3 +65,44 @@ a:hover{
 .texto{
     align-items: center;
 }
+
+.boton-artista {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(91, 192, 153);
+    color: white;
+    border: 0px;
+    box-shadow: none;
+}
+
+.boton-artista:hover {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(91, 192, 153);
+    border: 0px;
+    box-shadow: none;
+    color: black;  
+}
+
+.boton-productor {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(91, 192, 153);
+    color: white;
+    border: 0px;
+    box-shadow: none;
+}
+
+.boton-productor:hover {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(91, 192, 153);
+    border: 0px;
+    box-shadow: none;
+    color: black;  
+}
+
+ul{
+    list-style: square;
+    margin: 15px;
+}
