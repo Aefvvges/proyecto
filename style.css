@@ -15,8 +15,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;   
+    position: sticky;
+    top:0;
 }
 
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
 
 a{
     background-color: rgb(0, 194, 129);
@@ -37,6 +45,20 @@ a:hover{
     box-shadow: none;
     cursor: pointer;
     transition: 500ms;
+}
+
+.artist a{
+    background-color: rgb(145, 245, 207);
+    border: 0;
+    box-shadow: none;
+}
+
+.artist a:hover{
+    color:white;
+    transition: none;
+}
+.artist ul{
+    display: block;
 }
 
 .grid-container{
