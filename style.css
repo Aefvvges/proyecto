@@ -133,3 +133,12 @@ ul{
     list-style: square;
     margin: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .box{
+        display: block;
+    }
+    iframe{
+        width: fit-content;
+    }
+}
