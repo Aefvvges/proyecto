@@ -91,7 +91,7 @@ a:hover{
     align-items: center;
 }
 
-.boton-artista {
+.boton-artista, .boton-productor {
     margin: auto;
     padding: auto;
     background-color: rgb(91, 192, 153);
@@ -100,26 +100,7 @@ a:hover{
     box-shadow: none;
 }
 
-.boton-artista:hover {
-    margin: auto;
-    padding: auto;
-    background-color: rgb(91, 192, 153);
-    border: 0px;
-    box-shadow: none;
-    color: black;
-    font-weight: bold;
-}
-
-.boton-productor {
-    margin: auto;
-    padding: auto;
-    background-color: rgb(91, 192, 153);
-    color: white;
-    border: 0px;
-    box-shadow: none;
-}
-
-.boton-productor:hover {
+.boton-artista:hover, .boton-productor:hover {
     margin: auto;
     padding: auto;
     background-color: rgb(91, 192, 153);
