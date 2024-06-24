@@ -9,6 +9,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+i{
+    margin: 5px;
+}
+
 header {
     background-color: rgb(12, 161, 136);
     padding: 12px;
@@ -18,10 +22,32 @@ header {
     position: sticky;
     top:0;
 }
+header button{
+    margin: 5px;
+    background-color: rgb(0, 194, 129);
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+header button:hover{
+    background-color: black;
+    color: rgb(0, 194, 129);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 500ms;
+}
 
 .side-2 ul{
     display: flex;
     list-style-type: none;
+    white-space: nowrap;
+}
+input{
+    background-color: rgb(145, 245, 207);
+}
+.side-2 input:required{
+    background-color: rgb(0, 194, 129);
 }
 
 a{
@@ -127,11 +153,10 @@ ul{
     }
     .side-2 li{
         margin-bottom: 15px;
+        white-space: nowrap;
+
     }
-    .side-2{
-        width: fit-content;
-    }
-    .grid-item{
+    .grid-item input{
         width: 100px;
     }
 }
