@@ -112,7 +112,7 @@ a:hover{
 
 ul{
     list-style: square;
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -121,5 +121,17 @@ ul{
     }
     iframe{
         width: fit-content;
+    }
+    .side-2 ul{
+        display: block;
+    }
+    .side-2 li{
+        margin-bottom: 15px;
+    }
+    .side-2{
+        width: fit-content;
+    }
+    .grid-item{
+        width: 100px;
     }
 }
