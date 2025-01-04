@@ -1,12 +1,21 @@
+@font-face {
+    font-family: 'orbitron';
+    src: url(../fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'orbitron';
+    --color-primario: rgb(12, 161, 136);
+    --color-secundario: rgb(0, 194, 129);
+    --color-terceario: rgb(230, 255, 245);
+    --color-cuarto: rgb(91, 192, 153);
+    --color-complementario: rgb(255, 87, 51);
 }
 
 body{
-    background-color: rgb(145, 245, 207);
-    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--color-terceario);
 }
 
 i{
@@ -14,7 +23,7 @@ i{
 }
 
 header {
-    background-color: rgb(12, 161, 136);
+    background-color: var(--color-primario);
     padding: 12px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +34,7 @@ header {
 }
 header button{
     margin: 5px;
-    background-color: rgb(0, 194, 129);
+    background-color: var(--color-secundario);
     color:black;
     border: 2px solid black;
     border-radius: 5px;
@@ -33,7 +42,7 @@ header button{
 }
 header button:hover{
     background-color: black;
-    color: rgb(0, 194, 129);
+    color: var(--color-complementario);
     text-decoration: none;
     cursor: pointer;
     transition: 500ms;
@@ -45,16 +54,19 @@ header button:hover{
     white-space: nowrap;
 }
 input{
-    background-color: rgb(145, 245, 207);
+    background-color: var(--color-terceario);
 }
 .side-2 input:required{
-    background-color: rgb(0, 194, 129);
+    background-color: var(--color-secundario);
 }
 
-a{
-    background-color: rgb(0, 194, 129);
+a {
     color:black;
     text-decoration: none;
+}
+
+header a, .info a{
+    background-color: var(--color-secundario);
     border-radius: 5px;
     margin: 5px;
     padding: 2px;
@@ -62,24 +74,21 @@ a{
     box-shadow: 2px 4px black;
 }
 
-a:hover{
+header a:hover, .info a:hover{
     background-color: black;
-    color: rgb(0, 194, 129);
-    text-decoration: none;
-    border: 2px solid black;
+    color: var(--color-complementario);
     box-shadow: none;
-    cursor: pointer;
     transition: 500ms;
 }
 
 .artist a, .producer a{
-    background-color: rgb(145, 245, 207);
+    background-color: var(--color-terceario);
     border: 0;
     box-shadow: none;
 }
 
 .artist a:hover, .producer a:hover{
-    color:white;
+    color: var(--color-complementario);
     transition: none;
 }
 .artist ul, .producer u{
@@ -98,7 +107,7 @@ a:hover{
 .contenedor{
     margin: 1% 10%;
     padding: 20px;
-    background-color: rgb(91, 192, 153);
+    background-color: var(--color-cuarto);
     color: white;
     border-radius: 15px;
 }
@@ -121,7 +130,7 @@ a:hover{
 .boton-artista, .boton-productor {
     margin: auto;
     padding: auto;
-    background-color: rgb(91, 192, 153);
+    background-color: var(--color-cuarto);
     color: white;
     border: 0px;
     box-shadow: none;
@@ -130,10 +139,10 @@ a:hover{
 .boton-artista:hover, .boton-productor:hover {
     margin: auto;
     padding: auto;
-    background-color: rgb(91, 192, 153);
+    background-color: var(--color-cuarto);
     border: 0px;
     box-shadow: none;
-    color: black;
+    color: var(--color-complementario);
     font-weight: bold;
 }
 

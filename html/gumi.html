@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Project</title>
-    <link rel="icon" href="apagar.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../img/apagar.png">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/a5b75171a2.js" crossorigin="anonymous"></script>
-    <script src="loadHeader.js" defer></script>
+    <script src="../scripts/loadHeader.js" defer></script>
 </head>
 
 <header>
-    <div id="header-container"></div>
+    <div class="side-1">
+        <input type="search" placeholder="Search">
+        <button><i class="fas fa-magnifying-glass"></i></button>
+    </div>
+    <h1>Project title</h1>
+    <div class="side-2">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="producer.html">Producer</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="#">Random page</a></li>
+            <li>  
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <i class="fas fa-circle-user"></i><input type="text" name="usuario" placeholder="User"></input>
+                    </div>
+                    <div class="grid-item">
+                        <i class="fas fa-lock"></i><input type="password" name="contraseña" placeholder="Password"></input>
+                    </div>
+                </div>
+            </li>
+            <li><button type="submit"><i class="fa-solid fa-paper-plane"></i></button></li>
+        </ul>
+    </div>
 </header>
 
 <body>
