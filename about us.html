@@ -10,33 +10,38 @@
     <script src="scripts/menu-hamburguesa.js" defer></script>
 </head>
 
-<header>
+<header class="main-header">
     <div class="side-1">
         <input type="search" placeholder="Search">
         <button><i class="fas fa-magnifying-glass"></i></button>
     </div>
-    <h1>Project title</h1>
-    <div class="side-2">
-        <ul>
-            <li><a href="index.html">Index</a></li>
-            <li><a href="about us.html">About Us</a></li>
-            <li><a href="producer.html">Producer</a></li>
-            <li><a href="artist.html">Artist</a></li>
-            <li><a href="#">Random page</a></li>
-            <li>  
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <i class="fas fa-circle-user"></i><input type="text" name="usuario" placeholder="User"></input>
+    <nav id="nav" class="main-nav">
+        <div class="side-2">
+            <ul>
+                <li><a class="link-item" href="index.html">Index</a></li>
+                <li><a class="link-item" href="about us.html">About Us</a></li>
+                <li><a class="link-item" href="producer.html">Producer</a></li>
+                <li><a class="link-item" href="artist.html">Artist</a></li>
+                <li><a class="link-item" href="#">Random page</a></li>
+                <li>  
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <i class="fas fa-circle-user"></i><input type="text" name="usuario" placeholder="User"></input>
+                        </div>
+                        <div class="grid-item">
+                            <i class="fas fa-lock"></i><input type="password" name="contraseña" placeholder="Password"></input>
+                        </div>
                     </div>
-                    <div class="grid-item">
-                        <i class="fas fa-lock"></i><input type="password" name="contraseña" placeholder="Password"></input>
-                    </div>
-                </div>
-            </li>
-                
-            <li><button type="submit"><i class="fa-solid fa-paper-plane"></i></button></li>
-        </ul>
-    </div>
+                </li>
+                <li><button type="submit"><i class="fa-solid fa-paper-plane"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+    <button id="button-menu" class="button-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 </header>
 
 <body>
